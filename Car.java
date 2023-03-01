@@ -18,7 +18,8 @@ public class Car
 		this.y = y;
 		try
 		{
-			carpic = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Cityscape\\src\\Cityscape\\mater.png"));
+			//Replace path with the path to "mater.png" in your local. Uncomment line 22.
+			//carpic = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Cityscape\\src\\Cityscape\\mater.png"));
 		}
 		catch (IOException e)
 		{
